@@ -1,0 +1,13 @@
+[[sources]]
+usl = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.6"
+
+[packages]
+numpy = "1.14"
+pandas = "0.23"
+sympy = "0.7"
+scipy = "1.1"
+sklearn = "0.19"
