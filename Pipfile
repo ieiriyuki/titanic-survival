@@ -1,13 +1,12 @@
-[[sources]]
-usl = "https://pypi.python.org/simple"
+[[source]]
+url = "https://pypi.python.org/simple"
 verify_ssl = true
+name = "pypi"
 
 [requires]
 python_version = "3.6"
 
 [packages]
-numpy = "1.14"
-pandas = "0.23"
-sympy = "0.7"
-scipy = "1.1"
-sklearn = "0.19"
+pandas = "==0.22.0"
+scipy = "==1.1.0"
+scikit-learn = "==0.19.1"
