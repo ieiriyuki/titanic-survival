@@ -2,6 +2,7 @@
 
 from sklearn import preprocessing as prp
 import pandas as pd
+import random as rand
 
 data = pd.read_csv("./data/train.csv", sep=",", header=0)
 
@@ -26,6 +27,11 @@ for col in data.columns:
 
 train_data = data[['Survived','Pclass','Sex']]
 print("shape changed: {0}".format(train_data.shape))
+
+x = []
+x.append(rand.sample(range(891), 33))
+
+print(x[0])
 
 #print(train_data['Sex'])
 
